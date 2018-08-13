@@ -1,0 +1,147 @@
+.color-palette-content {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 24px 0 0;
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0.2);
+	border-radius: 3px;
+	overflow: hidden;
+}
+
+[class*="main-color-"],
+[class*="secondary-color-"] {
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+	box-sizing: border-box;
+	flex-wrap: wrap;
+}
+
+[class*="main-color-"] {
+	min-height: 160px;
+	width: 100%;
+}
+
+[class*="main-color-"] b,
+.extended-colors-wrap b,
+.secondary-colors-wrap b {
+	font-weight: 900;
+	padding-bottom: 10px;
+}
+
+.extended-colors-wrap {
+	width: 50%;
+	box-sizing: border-box;
+	padding: 0;
+}
+
+.extended-colors-wrap > li {
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+	flex-wrap: wrap;
+}
+
+.color-numbers {
+	display: flex;
+	opacity: .8;
+	flex-direction: column;
+	width: 140px;
+}
+
+.color-numbers span:not(:last-child) {
+	padding-bottom: 4px;
+}
+
+/**/
+
+.main-color-foodbank-yellow {
+	background-color: #FFC826;
+	color: #ffffff;
+}
+
+.foodbank-yellow-600 {
+	background-color: #FF9E00;
+	color: white;
+}
+
+.foodbank-yellow-500 {
+	background-color: #FFB100;
+	color: white;
+}
+
+.foodbank-yellow-400 {
+	background-color: #FDBA1A;
+	color: white;
+}
+
+.foodbank-yellow-300 {
+	background-color: #FFC826;
+	color: white;
+}
+
+.foodbank-yellow-200 {
+	background-color: #FFD341;
+	color: white;
+}
+
+.foodbank-yellow-100 {
+	background-color: #FFDF81;
+	color: white;
+}
+
+/**/
+
+.main-color-white-dark {
+	background-color: #FFFFFF;
+}
+
+.white-dark-600 {
+	background-color: #000000;
+	color: white;
+}
+
+.white-dark-500 {
+	background-color: #484848;
+	color: white;
+}
+
+.white-dark-400 {
+	background-color: #888888;
+	color: white;
+}
+
+.white-dark-300 {
+	background-color: #DEDEDE;
+}
+
+.white-dark-200 {
+	background-color: #F7F7F7;
+}
+
+.white-dark-100 {
+	background-color: #FFFFFF;
+}
+
+/**/
+
+[class*="secondary-color-"] {
+	width: 50%;
+}
+
+.secondary-colors-wrap {
+	display: flex;
+	margin: 20px 0 0;
+	border-radius: 3px;
+	overflow: hidden;
+	padding: 0; 
+}
+
+.secondary-color-brand-sucess {
+	background-color: #00A699;
+	color: #fff;
+}
+
+.secondary-color-brand-warning {
+	background-color: #FF7E82;
+	color: #fff;
+}

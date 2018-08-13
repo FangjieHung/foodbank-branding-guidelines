@@ -1,0 +1,122 @@
+.guildelines-wrap {
+  margin: 20px auto 0;
+  padding: 0 16px;
+  max-width: 1024px;
+}
+
+.guildelines-wrap section {
+  margin: 0 0 60px;
+}
+
+.section-titles {
+  padding: 0 0 16px;
+  width: 80%;
+  max-width: 450px;
+}
+
+.section-sub-titles {
+	margin: 0 0 24px;
+	line-height: 180%;
+	font-weight: 200;
+}
+
+/*//*/
+
+.guildelines-header {
+  background: url('image/header-image.png') top right no-repeat;
+  background-size: contain;
+  padding: 60px 0 0;
+}
+
+.guildelines-header img {
+  margin: 0 0 20px;
+  max-width: 600px;
+  width: 100%;
+ }
+
+.guildelines-header p {
+  margin: 0;
+  line-height: 180%;
+  font-weight: 200;
+ }
+
+/*//*/
+
+.content-section {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.content-section > li {
+	position: relative;
+}
+
+.content-section > li:not(:last-child) {
+	margin: 0 0 30px;
+}
+
+.content-section > li::before {
+	content: '';
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	border: 2px solid #FFC926;
+	border-radius: 100%;
+	top: 4px;
+	left: 0;
+}
+
+.content-section > li > span {
+  padding-left: 20px;
+}
+
+.content-section li > img {
+  margin: 30px 0 0;
+}
+
+.content-section img {
+	width: 100%;
+	padding: 0;
+}
+
+/**/
+
+.typography-content {
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.typography-content li:not(:last-child) {
+	margin: 0 80px 0 0;
+}
+
+.typography-content div {
+	margin: 20px 0 0;
+}
+
+.typography-content span {
+	display: block;
+}
+
+.typography-content img {
+	height: 24px;
+	width: auto;
+	margin: 10px 0;
+}
+
+@media screen and (max-width: 480px) {
+
+	.guildelines-header {
+		background: none;
+		padding: 10px 0 0;
+	}
+
+	.guildelines-wrap section {
+  		margin: 0 0 30px;
+	}
+}
+

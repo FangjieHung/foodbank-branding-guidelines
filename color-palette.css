@@ -1,0 +1,17 @@
+.color-palette-content {
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+}
+
+.color-palette-content li {
+	/*width: 100%;*/
+}
+
+.color-palette-content li:first-child {
+	width: 100%;
+}
+
+.foodbank-yellow {
+	background-color: #FFC826;
+}
